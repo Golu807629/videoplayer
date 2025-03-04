@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#btn{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    opacity: 0;
+    cursor:pointer;
+}
+#box{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: none;
+    cursor:pointer;
+}
